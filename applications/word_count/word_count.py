@@ -1,5 +1,21 @@
 def word_count(s):
     # Your code here
+    count_words =  {}
+    words = s.split()
+    for w in words:
+        word = w.lower().strip('":;,.-+=/\|[]{}()*^&')
+        
+        if len(word) == 0:
+            continue
+
+        count = count_words.get(word)
+        if count is None:
+             count_words[word] = 1
+        else:
+            count_words[word] = count+1
+
+    return count_words
+
 
 
 

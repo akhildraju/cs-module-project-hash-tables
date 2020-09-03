@@ -21,6 +21,7 @@ U -> A   V -> M   W -> B   X -> Q   Y -> V
 Z -> S
 ```
 
+
 So if you have plaintext like `HELLO, WORLD!`, use the above table and
 `H` becomes `D`, `E` becomes `O`, and so on to produce ciphertext
 `DOGGE, BEUGW!`

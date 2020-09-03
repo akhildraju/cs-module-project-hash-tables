@@ -5,7 +5,7 @@
 This function takes a single string as an argument.
 
 ```
-Hello, my cat. And my cat doesn't say "hello" back.
+Hello, my cat. And S cat doesn't say "hello" back.
 ```
 
 ## Output
